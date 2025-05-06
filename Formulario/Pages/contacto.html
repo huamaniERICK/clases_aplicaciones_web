@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de contacto</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="./Pages/input.html">Inputs</a>
+        <a href="./button.html">Button</a>
+        <a href="">Formulario de contacto</a>
+    </nav>
+
+    <section>
+        <h2>Barra de busqueda</h2>
+        <form action="" method="get">
+            <input type="search" name="" id=""
+            placeholder="ingresa tu buscador">
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Formulario de login</h2>
+        <form action="" method="post">
+            <input type="email" placeholder="ingrese email" required id="email"><br><br>
+            <input type="password" placeholder="ingrese password" required id="pasword">
+            <button type="submit">iniciar sesion</button>
+        </form>
+    </section>
+    <section>
+        <h2>formulario de registro</h2>
+        <!-- averiguar la propiedad action que permite cargar archivos multimedia  en mi formularilabel-->
+        <form action="" method="post">
+            <label>Nombres:<input type="text" name="" id="nombre"></label><br><br>
+            <label>Apellidos:<input type="text" name="" id="apellido"></label><br><br>
+            <label>usuario/email:<input type="email" name="" id="email"></label><br><br>
+            <label>password:<input type="password" name="" id="password"></label><br><br>
+
+            <label>
+                Sube una foto:
+                <input type="file" name="" id="archivo">
+            </label>
+            <br><br>
+            <label>
+                Fecha de nacimiento:
+                <input type="date" name="" id="f_nacimiento">
+            </label>
+            <input type="submit" value="Registrate">
+        </form> 
+    </section>
+
+</body>
+</html>
